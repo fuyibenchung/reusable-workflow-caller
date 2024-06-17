@@ -1,0 +1,9 @@
+name: Call Reusable Workflow
+
+on: [push]
+
+jobs:
+  call-reusable:
+    uses: fuyibenchung/reusable-workflow/.github/workflows/reusable-workflow.yml@main
+    with:
+      name: 'GitHub User'
