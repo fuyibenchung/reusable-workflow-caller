@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   call-reusable:
-    uses: fuyibenchung/reusable-workflow/.github/workflows/reusable-workflow.yml@main
+    uses: fuyibenchung/reusable-workflow/.github/workflows/ci.yml@main
     with:
       name: 'GitHub User'
